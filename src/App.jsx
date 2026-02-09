@@ -80,17 +80,17 @@ function App() {
     <>
       <div className="">
         <div className="mx-4 mt-20 max-w-3xl rounded-2xl rounded-br-[5rem]   bg-white px-6 py-10 md:mx-auto md:mt-36 md:rounded-br-[8rem] md:p-10  opacity-70">
-          <div className="text-center grid min-h-[25rem]">
+          <div className="text-center grid min-h-100">
             {showLoading ? (
               isDone ? (
                 <div>
                   <div className=" font-bold text-2xl my-8">
                     You have the perfect personality to...
                   </div>
-                  <div className=" font-['SegaFont'] text-blue-600 text-6xl">
+                  <div className=" font-['SegaFont'] text-blue-600 text-5xl">
                     Be my Valentine
                   </div>
-                  <div className="  font-bold  mt-12  text-5xl">
+                  <div className="  font-bold  mt-12  text-3xl">
                     Lets have a virtual movie night, what do you say?
                   </div>
                 </div>
