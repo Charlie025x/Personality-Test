@@ -84,13 +84,13 @@ function App() {
             {showLoading ? (
               isDone ? (
                 <div>
-                  <div className=" font-bold text-2xl my-8">
+                  <div className=" font-bold text-xl my-8">
                     You have the perfect personality to...
                   </div>
-                  <div className=" font-['SegaFont'] text-blue-600 text-4xl">
+                  <div className=" font-['SegaFont'] text-blue-600 text-xl">
                     Be my Valentine
                   </div>
-                  <div className="  font-bold  mt-12  text-3xl">
+                  <div className="  font-bold  mt-12  text-xl">
                     Lets have a virtual movie night, what do you say?
                   </div>
                 </div>
